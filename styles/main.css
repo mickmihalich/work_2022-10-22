@@ -11,10 +11,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
-.left_panel{
+.left_panel{    
     color: #0b0080;    
-    display: inline-block;
+    display: inline-block;    
     width: 160px;
+    height: 100vh;
     background: #F6F6F6;
     padding: 0 0 0 1em;
 }
@@ -47,4 +48,33 @@ a:hover {
     margin: 19px 0 9px 0;
     font-weight: 100;
     font-size: 0.995em;
+}
+.left_panel div.other{
+    border: 1px solid grey;
+    margin: 0 5em 0 0;
+    padding: 0.55em;
+    text-align: right;
+    background-image: url(https://uk.wikipedia.org/w/extensions/UniversalLanguageSelector/resources/images/language-base20.svg?b7954);
+    background-repeat: no-repeat;
+    background-position: 1em center;
+}
+div.other:hover {
+    text-decoration: none;
+    background-color:aliceblue;
+    cursor: pointer;
+}
+span.other:hover{
+    text-decoration: none;
+}
+div.top_banner{
+    background-image: url(../images/Wiki_Loves_Monuments_Logo_notext.svg.webp);
+    background-repeat: no-repeat;
+    background-position: 1em center;
+    width: 100vw;
+    height: 8em;
+    border: 1px solid #9d1f1f;
+    display: block;
+}
+.banner_text{
+    padding-left: 8em;
 }
